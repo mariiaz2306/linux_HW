@@ -1,0 +1,11 @@
+   0 touch newfile.txt
+   1 date >> newfile.txt
+   2 df -h / >> newfile.txt
+   3 history | tail -n 5 >> newfile.txt
+   4 cat /proc/cpuinfo | grep 'vendor' | sort | uniq >> newfile.txt
+   5 nano newfile.txt
+   6 ps -ef | wc -l >> newfile.txt
+   7 cp newfile.txt result.txt
+   8 cat result.txt
+   9 history > history_06.txt export_file history_06.txt
+  10 history > history_06.txt
